@@ -1,0 +1,9 @@
+{
+  "name": "Ancient Octus Factory",
+  "type": "UnitFactory",
+  "produceTime": 18000,
+  "launchVelocity": 0,
+  "maxSpawn": 1,
+  "unitType": "ancient-octus",
+  "size": 6
+}
