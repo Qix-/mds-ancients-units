@@ -5,5 +5,15 @@
   "launchVelocity": 0,
   "maxSpawn": 1,
   "unitType": "ancient-octus",
-  "size": 6
+  "size": 6,
+  "consumes": {
+    "items": {
+      "items": [
+        "silicon/200",
+        "titanium/50",
+        "thorium/40",
+        "phase-fabric/50"
+      ]
+    }
+  }
 }
