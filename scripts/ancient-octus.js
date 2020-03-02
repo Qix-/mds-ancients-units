@@ -2,7 +2,7 @@ const ancientOctus = extendContent(UnitType, 'ancient-octus', {});
 
 const offsetY = -10;
 
-ancientOctus.constructor = prov(() => {
+ancientOctus.create(prov(() => {
 	var age = Math.random() * 40;
 
 	return new JavaAdapter(HoverUnit, {
@@ -65,4 +65,4 @@ ancientOctus.constructor = prov(() => {
 			this.super$draw();
 		}
 	});
-});
+}));
