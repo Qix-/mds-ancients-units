@@ -25,7 +25,7 @@ ancientOctus.constructor = prov(() => {
 				(cos * y) - (sin * -x) + cy
 			]);
 
-			Draw.color(1.0, 1.0, 1.0, 0.4);
+			Draw.color(originalColor, 0.2);
 
 			for (var t = 0; t < 5; t++) {
 				var last = rot(0, offsetY);
